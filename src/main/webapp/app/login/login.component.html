@@ -1,3 +1,9 @@
 <div class="login">
-  <button mat-raised-button color="accent" (click)="logout()" id="btn-logout" class="login__btn-logout">Logout</button>
+  <ng-container *ngIf="isAuthenticated() | async; else loggedOut">
+    <span *ngIf="getAuthenticatedUser() | async as user">{{ user.nickname }} </span>
+    <button mat-raised-button color="accent" (click)="logout()" id="btn-logout" class="login__btn-logout">Logout</button>
+  </ng-container>
+  <ng-template #loggedOut>
+    <button mat-raised-button color="basic" (click)="login()" id="btn-login" class="login__btn-login">Login</button>
+  </ng-template>
 </div>
