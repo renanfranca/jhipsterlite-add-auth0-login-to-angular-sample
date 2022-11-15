@@ -54,6 +54,7 @@
     "prettier-plugin-packagejson": "2.3.0"
   },
   "dependencies": {
+    "keycloak-js": "20.0.1",
     "@angular/animations": "14.2.10",
     "@angular/cdk": "14.2.7",
     "@angular/common": "14.2.10",

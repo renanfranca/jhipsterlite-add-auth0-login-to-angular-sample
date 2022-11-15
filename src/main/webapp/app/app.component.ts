@@ -1,3 +1,4 @@
+import { LoginComponent } from './login/login.component';
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
@@ -10,7 +11,7 @@ import { MatMenuModule } from '@angular/material/menu';
 @Component({
   selector: 'jhi-root',
   templateUrl: './app.component.html',
-  imports: [CommonModule, RouterModule, MatMenuModule, MatToolbarModule, MatIconModule, MatButtonModule],
+  imports: [CommonModule, RouterModule, MatMenuModule, MatToolbarModule, MatIconModule, MatButtonModule, LoginComponent],
   standalone: true,
   styleUrls: ['./app.component.css'],
 })

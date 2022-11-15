@@ -32,7 +32,7 @@
             ],
             "styles": ["src/main/webapp/styles.css"],
             "scripts": [],
-            "allowedCommonJsDependencies": []
+            "allowedCommonJsDependencies": ["keycloak-js"]
           },
           "configurations": {
             "production": {
