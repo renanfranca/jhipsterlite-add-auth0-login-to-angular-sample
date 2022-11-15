@@ -584,5 +584,18 @@
       "baseName" : "baby",
       "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
     }
+  }, {
+    "module" : "zalando-problems",
+    "date" : "2022-11-15T02:17:53.354179800Z",
+    "properties" : {
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
   } ]
 }
