@@ -1,6 +1,7 @@
 package com.mamazinha.baby.authentication.infrastructure.primary;
 
 import com.mamazinha.baby.authentication.domain.Role;
+import com.mamazinha.baby.common.domain.Generated;
 import java.util.HashSet;
 import java.util.Set;
 import org.springframework.beans.factory.annotation.Value;
@@ -31,7 +32,6 @@ import org.springframework.security.web.csrf.CsrfFilter;
 import org.springframework.security.web.header.writers.ReferrerPolicyHeaderWriter;
 import org.springframework.web.filter.CorsFilter;
 import org.zalando.problem.spring.web.advice.security.SecurityProblemSupport;
-import com.mamazinha.baby.common.domain.Generated;
 
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true)
@@ -97,8 +97,8 @@ public class SecurityConfiguration {
       .antMatchers("/api/auth-info").permitAll()
       .antMatchers("/api/admin/**").hasAuthority(Role.ADMIN.key())
       .antMatchers("/api/**").authenticated()
-      .antMatchers("/management/health").permitAll()
-      .antMatchers("/management/health/**").permitAll()
+      // .antMatchers("/management/health").permitAll()
+      // .antMatchers("/management/health/**").permitAll()
       .antMatchers("/management/info").permitAll()
       .antMatchers("/management/prometheus").permitAll()
       .antMatchers("/management/**").hasAuthority(Role.ADMIN.key())
