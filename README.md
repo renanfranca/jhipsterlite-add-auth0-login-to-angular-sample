@@ -39,5 +39,6 @@ docker compose -f src/main/docker/postgresql.yml up -d
 - [Assertions](documentation/assertions.md)
 - [Logs spy](documentation/logs-spy.md)
 - [Postgresql](documentation/postgresql.md)
+- [Dev tools](documentation/dev-tools.md)
 
 <!-- jhipster-needle-documentation -->
