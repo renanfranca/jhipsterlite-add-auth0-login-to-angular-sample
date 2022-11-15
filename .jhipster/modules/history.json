@@ -1,0 +1,354 @@
+{
+  "actions" : [ {
+    "module" : "init",
+    "date" : "2022-10-29T20:21:04.297627600Z",
+    "properties" : {
+      "projectName" : "Mamazinha Baby Care",
+      "baseName" : "baby",
+      "endOfLine" : "lf",
+      "indentSize" : 2
+    }
+  }, {
+    "module" : "maven-wrapper",
+    "date" : "2022-10-30T09:16:04.304679700Z",
+    "properties" : {
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "baseName" : "baby",
+      "endOfLine" : "lf"
+    }
+  }, {
+    "module" : "maven-java",
+    "date" : "2022-10-30T09:18:01.743516100Z",
+    "properties" : {
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "baseName" : "baby",
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby"
+    }
+  }, {
+    "module" : "prettier",
+    "date" : "2022-11-03T13:43:16.368858400Z",
+    "properties" : {
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "baseName" : "baby",
+      "endOfLine" : "lf",
+      "serverPort" : 8080
+    }
+  }, {
+    "module" : "init",
+    "date" : "2022-11-05T18:09:25.564979300Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "application-service-hexagonal-architecture-documentation",
+    "date" : "2022-11-05T18:09:25.712861900Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "maven-wrapper",
+    "date" : "2022-11-05T18:09:25.841861300Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "maven-java",
+    "date" : "2022-11-05T18:09:26.048855200Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "prettier",
+    "date" : "2022-11-05T18:09:26.206855600Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "angular-core",
+    "date" : "2022-11-05T18:09:26.428860Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "java-base",
+    "date" : "2022-11-05T18:09:26.741861Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "angular-health",
+    "date" : "2022-11-05T18:09:27.153868300Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "angular-oauth2",
+    "date" : "2022-11-05T18:09:27.791859500Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "frontend-maven-plugin",
+    "date" : "2022-11-05T18:09:28.538865500Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "pagination-domain",
+    "date" : "2022-11-05T18:09:29.004863500Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "spring-boot",
+    "date" : "2022-11-05T18:09:29.561105300Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "postgresql",
+    "date" : "2022-11-05T18:09:30.650775500Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "spring-boot-devtools",
+    "date" : "2022-11-05T18:09:31.207759800Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "spring-boot-tomcat",
+    "date" : "2022-11-05T18:09:31.644760400Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "java-archunit",
+    "date" : "2022-11-05T18:09:32.069379300Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "liquibase",
+    "date" : "2022-11-05T18:09:32.488378900Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "spring-boot-actuator",
+    "date" : "2022-11-05T18:09:32.957382Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "springdoc-mvc-openapi",
+    "date" : "2022-11-05T18:09:33.343380300Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "zalando-problems",
+    "date" : "2022-11-05T18:09:33.671377800Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "spring-boot-oauth2",
+    "date" : "2022-11-05T18:09:34.341134200Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "spring-boot-oauth2-auth0",
+    "date" : "2022-11-05T18:09:35.107763600Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "springdoc-oauth2-auth0",
+    "date" : "2022-11-05T18:09:35.549756800Z",
+    "properties" : {
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  }, {
+    "module" : "init",
+    "date" : "2022-11-15T02:17:44.492613700Z",
+    "properties" : {
+      "auth0Domain" : "dev-va3lq36ddkgddeu5.us.auth0.com",
+      "endOfLine" : "lf",
+      "packageName" : "com.mamazinha.baby",
+      "projectName" : "Mamazinha Baby Care",
+      "indentSize" : 2,
+      "serverPort" : 8080,
+      "baseName" : "baby",
+      "auth0ClientId" : "Ycfc1uQ327fpi2BfecNotNLqiXcmCn1q"
+    }
+  } ]
+}

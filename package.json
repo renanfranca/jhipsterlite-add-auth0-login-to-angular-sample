@@ -1,0 +1,13 @@
+{
+  "name": "baby",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Mamazinha Baby Care",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18.12.1"
+  },
+  "cacheDirectories": [
+    "node_modules"
+  ]
+}
