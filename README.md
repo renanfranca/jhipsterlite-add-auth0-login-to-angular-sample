@@ -47,5 +47,6 @@ docker compose -f src/main/docker/keycloak.yml up -d
 - [Postgresql](documentation/postgresql.md)
 - [Dev tools](documentation/dev-tools.md)
 - [CORS configuration](documentation/cors-configuration.md)
+- [Auth0](documentation/auth0.md)
 
 <!-- jhipster-needle-documentation -->
