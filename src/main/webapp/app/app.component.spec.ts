@@ -1,9 +1,15 @@
-import { By } from '@angular/platform-browser';
-import { LoginComponent } from './login/login.component';
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+import { By } from '@angular/platform-browser';
 import { RouterTestingModule } from '@angular/router/testing';
+import { LoginComponent } from './login/login.component';
 
+import { of } from 'rxjs';
 import { AppComponent } from './app.component';
+import { Oauth2AuthService } from './auth/oauth2-auth.service';
+
+const mockOauth2AuthService = {
+  isAuthenticated: jest.fn()
+}
 
 describe('App Component', () => {
   let comp: AppComponent;
@@ -13,6 +19,7 @@ describe('App Component', () => {
     waitForAsync(() => {
       TestBed.configureTestingModule({
         imports: [RouterTestingModule.withRoutes([])],
+        providers: [{provide: Oauth2AuthService, useValue: mockOauth2AuthService}]
       }).compileComponents();
     })
   );
@@ -32,6 +39,7 @@ describe('App Component', () => {
     });
     
     it('should display login component', () => {
+      mockOauth2AuthService.isAuthenticated.mockImplementation(() => of(false));
       fixture.detectChanges();
     
       expect(fixture.debugElement.query(By.directive(LoginComponent))).toBeTruthy();

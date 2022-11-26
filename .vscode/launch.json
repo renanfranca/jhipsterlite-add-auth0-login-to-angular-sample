@@ -17,6 +17,39 @@
 			"name": "Launch Chrome against localhost",
 			"url": "http://localhost:9000",
 			"webRoot": "${workspaceFolder}"
-		}
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Debug Jest Current File",
+			"program": "${workspaceFolder}/node_modules/@angular/cli/bin/ng",
+			"cwd": "${workspaceFolder}",
+			"args": [
+				"test",
+				"--test-match=\"**/+(*.)+(spec|test).+(ts|js)?(x)\"",
+				"--test-path-pattern=${fileBasenameNoExtension}",
+				"--run-in-band"
+			],
+			"console": "integratedTerminal",
+			"internalConsoleOptions": "neverOpen",
+			"disableOptimisticBPs": true
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Watch Jest Current File",
+			"program": "${workspaceFolder}/node_modules/@angular/cli/bin/ng",
+			"cwd": "${workspaceFolder}",
+			"args": [
+				"test",
+				"--test-match=\"**/+(*.)+(spec|test).+(ts|js)?(x)\"",
+				"--test-path-pattern=${fileBasenameNoExtension}",
+				"--run-in-band",
+				"--watch"
+			],
+			"console": "integratedTerminal",
+			"internalConsoleOptions": "neverOpen",
+			"disableOptimisticBPs": true
+		},
 	]
 }

@@ -1,7 +1,7 @@
-import { TestBed } from '@angular/core/testing';
 import { HttpHandler, HttpRequest } from '@angular/common/http';
-import { lastValueFrom, of } from 'rxjs';
-
+import { TestBed } from '@angular/core/testing';
+import { AuthService } from '@auth0/auth0-angular';
+import { lastValueFrom, of, throwError } from 'rxjs';
 import { HttpAuthInterceptor } from './http-auth.interceptor';
 import { Oauth2AuthService } from './oauth2-auth.service';
 
@@ -10,6 +10,9 @@ import Mock = jest.Mock;
 const URL = 'http://localhost:8080/api/dummy';
 const HTTP_METHOD = 'GET';
 const TOKEN = '1a2b3c';
+
+const mockAuthService = {
+};
 
 const buildHttpRequest = () => {
   let originalRequest: HttpRequest<unknown> = new HttpRequest<unknown>(HTTP_METHOD, URL);
@@ -24,7 +27,11 @@ describe('HttpAuthInterceptor', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [HttpAuthInterceptor, Oauth2AuthService],
+      providers: [
+        HttpAuthInterceptor,
+        Oauth2AuthService,
+        {provide: AuthService, useValue: mockAuthService}
+      ],
     });
 
     interceptor = TestBed.inject(HttpAuthInterceptor);
@@ -47,7 +54,7 @@ describe('HttpAuthInterceptor', () => {
     });
 
     it('should add authorization bearer token in request when defined', async () => {
-      jest.spyOn(oauth2AuthService, 'token', 'get').mockReturnValue(TOKEN);
+      jest.spyOn(oauth2AuthService, 'getToken').mockReturnValue(of(TOKEN));
       let originalRequest = buildHttpRequest();
 
       await lastValueFrom(interceptor.intercept(originalRequest, httpHandler));
@@ -61,7 +68,7 @@ describe('HttpAuthInterceptor', () => {
     });
 
     it('should not add authorization bearer token in request when it is not defined', async () => {
-      jest.spyOn(oauth2AuthService, 'token', 'get').mockReturnValue(undefined);
+      jest.spyOn(oauth2AuthService, 'getToken').mockReturnValue(throwError(() => new Error('You are not logged in')));
       let originalRequest: HttpRequest<unknown> = buildHttpRequest();
 
       await lastValueFrom(interceptor.intercept(originalRequest, httpHandler));

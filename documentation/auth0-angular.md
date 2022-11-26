@@ -6,7 +6,7 @@ OAuth is a stateful security mechanism, like HTTP Session. Spring Security provi
 
 If you’d like to use Auth0 instead of Keycloak, follow the configuration steps below:
 
-### Create an Single Page App using Auth0 Admin Dashboard
+### Create a Single Page App using Auth0 Admin Dashboard
 
 - Create a free developer account at <https://auth0.com/signup>. After successful sign-up, your account shall be associated with a unique domain like `dev-xxx.us.auth0.com`
 - Create a new application (**Applications > + Create Application**) of type `Single Page Application`. Switch to the `Settings` tab, and configure your application settings like:
@@ -32,7 +32,7 @@ If you’d like to use Auth0 instead of Keycloak, follow the configuration steps
 
 ### Configure JHipster Lite Angular Application to use Auth0
 
-In you Angular application update `src\main\webapp\environments\environment.ts` and `src\main\webapp\environments\environment.prod.ts` to use your Auth0 settings. Hint: replace {yourAuth0Domain} with your org’s name (e.g., dev-123456.us.auth0.com).
+In your Angular application update `src\main\webapp\environments\environment.ts` and `src\main\webapp\environments\environment.prod.ts` to use your Auth0 settings. Hint: replace {yourAuth0Domain} with your org’s name (e.g., dev-123456.us.auth0.com).
 
 ```typescript
   auth0: {
@@ -55,7 +55,7 @@ spring.security.oauth2.client.provider.oidc.issuer-uri=https://{yourAuth0Domain}
 ### Run the application setting the auth0 profile
 
 - `./mvnw -D"spring-boot.run.profiles"="auth0"`
-- `npm start` (run in different terminal window)
+- `npm start` (run in a different terminal window)
 - Access the application at <http://localhost:9000>
 
 ## References
